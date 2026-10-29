@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <rect width="600" height="340" fill="#0d1324" rx="12"/>
+  <rect x="20" y="20" width="560" height="40" fill="#151e36" rx="8"/>
+  <text x="45" y="45" fill="#f43f5e" font-family="JetBrains Mono, monospace" font-size="13" font-weight="bold">Exp 6: Pearson Correlation Heatmap (sns.heatmap)</text>
+
+  <!-- Heatmap Matrix -->
+  <g transform="translate(100, 75)">
+    <!-- Labels -->
+    <text x="65" y="15" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11">Sepal.L</text>
+    <text x="135" y="15" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11">Sepal.W</text>
+    <text x="205" y="15" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11">Petal.L</text>
+    <text x="275" y="15" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11">Petal.W</text>
+
+    <text x="-15" y="55" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="end">Sepal.L</text>
+    <text x="-15" y="115" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="end">Sepal.W</text>
+    <text x="-15" y="175" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="end">Petal.L</text>
+    <text x="-15" y="235" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="end">Petal.W</text>
+
+    <!-- Row 1 -->
+    <rect x="50" y="30" width="65" height="50" fill="#dc2626" rx="4"/>
+    <text x="82" y="60" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle" font-weight="bold">1.00</text>
+
+    <rect x="120" y="30" width="65" height="50" fill="#3b82f6" rx="4"/>
+    <text x="152" y="60" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">-0.11</text>
+
+    <rect x="190" y="30" width="65" height="50" fill="#f87171" rx="4"/>
+    <text x="222" y="60" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">0.87</text>
+
+    <rect x="260" y="30" width="65" height="50" fill="#ef4444" rx="4"/>
+    <text x="292" y="60" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">0.82</text>
+
+    <!-- Row 2 -->
+    <rect x="50" y="85" width="65" height="50" fill="#3b82f6" rx="4"/>
+    <text x="82" y="115" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">-0.11</text>
+
+    <rect x="120" y="85" width="65" height="50" fill="#dc2626" rx="4"/>
+    <text x="152" y="115" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle" font-weight="bold">1.00</text>
+
+    <rect x="190" y="85" width="65" height="50" fill="#1d4ed8" rx="4"/>
+    <text x="222" y="115" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">-0.42</text>
+
+    <rect x="260" y="85" width="65" height="50" fill="#2563eb" rx="4"/>
+    <text x="292" y="115" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">-0.36</text>
+
+    <!-- Row 3 -->
+    <rect x="50" y="140" width="65" height="50" fill="#f87171" rx="4"/>
+    <text x="82" y="170" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">0.87</text>
+
+    <rect x="120" y="140" width="65" height="50" fill="#1d4ed8" rx="4"/>
+    <text x="152" y="170" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">-0.42</text>
+
+    <rect x="190" y="140" width="65" height="50" fill="#dc2626" rx="4"/>
+    <text x="222" y="170" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle" font-weight="bold">1.00</text>
+
+    <rect x="260" y="140" width="65" height="50" fill="#b91c1c" rx="4"/>
+    <text x="292" y="170" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle" font-weight="bold">0.96</text>
+
+    <!-- Row 4 -->
+    <rect x="50" y="195" width="65" height="50" fill="#ef4444" rx="4"/>
+    <text x="82" y="225" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">0.82</text>
+
+    <rect x="120" y="195" width="65" height="50" fill="#2563eb" rx="4"/>
+    <text x="152" y="225" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">-0.36</text>
+
+    <rect x="190" y="195" width="65" height="50" fill="#b91c1c" rx="4"/>
+    <text x="222" y="225" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle" font-weight="bold">0.96</text>
+
+    <rect x="260" y="195" width="65" height="50" fill="#dc2626" rx="4"/>
+    <text x="292" y="225" fill="#fff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle" font-weight="bold">1.00</text>
+  </g>
+
+  <!-- Colorbar indicator -->
+  <rect x="470" y="105" width="16" height="160" fill="url(#grad_corr)" rx="3"/>
+  <defs>
+    <linearGradient id="grad_corr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b91c1c"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <text x="495" y="115" fill="#ef4444" font-family="JetBrains Mono, monospace" font-size="10">+1.0</text>
+  <text x="495" y="190" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="10"> 0.0</text>
+  <text x="495" y="265" fill="#38bdf8" font-family="JetBrains Mono, monospace" font-size="10">-1.0</text>
+</svg>

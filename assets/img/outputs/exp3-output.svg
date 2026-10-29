@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <rect width="600" height="340" fill="#0d1324" rx="12"/>
+  <rect x="20" y="20" width="560" height="40" fill="#151e36" rx="8"/>
+  <text x="45" y="45" fill="#22d3ee" font-family="JetBrains Mono, monospace" font-size="13" font-weight="bold">Data Cleaning & Transformation Pipeline</text>
+
+  <!-- Left: Raw with Nulls -->
+  <rect x="35" y="80" width="240" height="170" fill="#121a2e" rx="8" stroke="#f87171" stroke-width="1"/>
+  <text x="50" y="105" fill="#f87171" font-family="JetBrains Mono, monospace" font-size="12" font-weight="bold">Raw Data (with NaNs)</text>
+  <line x1="35" y1="115" x2="275" y2="115" stroke="#233253"/>
+  <text x="50" y="135" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11">Row 0: [A: 1.0, B: 4.0]</text>
+  <text x="50" y="160" fill="#f87171" font-family="JetBrains Mono, monospace" font-size="11">Row 1: [A: 2.0, B: NaN] &#x26A0;</text>
+  <text x="50" y="185" fill="#f87171" font-family="JetBrains Mono, monospace" font-size="11">Row 2: [A: NaN, B: NaN] &#x26A0;</text>
+  <text x="50" y="215" fill="#fbbf24" font-family="JetBrains Mono, monospace" font-size="11">Outliers (|z| &gt; 3): Detected</text>
+  <text x="50" y="235" fill="#fbbf24" font-family="JetBrains Mono, monospace" font-size="11">Regex split: '\s+'</text>
+
+  <!-- Center Arrow -->
+  <path d="M 290 165 L 315 165 M 310 158 L 320 165 L 310 172" stroke="#6366f1" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Right: Cleaned Data -->
+  <rect x="330" y="80" width="240" height="170" fill="#121a2e" rx="8" stroke="#34d399" stroke-width="1"/>
+  <text x="345" y="105" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="bold">Cleaned Output (fillna/dropna)</text>
+  <line x1="330" y1="115" x2="570" y2="115" stroke="#233253"/>
+  <text x="345" y="135" fill="#9aa6c4" font-family="JetBrains Mono, monospace" font-size="11">Row 0: [A: 1.0, B: 4.0]</text>
+  <text x="345" y="160" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="11">Row 1: [A: 2.0, B: 0.0] &#x2714;</text>
+  <text x="345" y="185" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="11">Row 2: [A: 0.0, B: 0.0] &#x2714;</text>
+  <text x="345" y="215" fill="#38bdf8" font-family="JetBrains Mono, monospace" font-size="11">Gender Map: {M:0, F:1}</text>
+  <text x="345" y="235" fill="#38bdf8" font-family="JetBrains Mono, monospace" font-size="11">Tokens: ['This', 'is', 'a', 'test']</text>
+
+  <rect x="35" y="270" width="535" height="48" fill="#151e36" rx="6"/>
+  <text x="50" y="300" fill="#e6ecff" font-family="JetBrains Mono, monospace" font-size="12">Transformations complete: 100% missing value resolution, zero null leakage.</text>
+</svg>
